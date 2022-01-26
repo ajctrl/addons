@@ -42,7 +42,7 @@ schema:
     folder: str
   keyfile: str
   logins:
-    - password: password
+    - password: str
       username: str
   require_certificate: bool
 services:
